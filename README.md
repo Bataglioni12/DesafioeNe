@@ -4,6 +4,8 @@
 ### pom.xml - arquivo pom necessário para rodar automação
 ### H01 - FluxoCarrinhoAmazon.pdf - História com Cenários
 ### PlanoDeTestes.pdf - Plano de Testes 
+### Evidencia.Png - Evidencia após exclusão do item do carrinho
+### EvidenciaErro.Png - Evidencia após o item não ser excluido.
 ---------------------------------------------------------------------------------
 
 ##  **_Repositório para Desafio da Empresa eNe Soluções_**
