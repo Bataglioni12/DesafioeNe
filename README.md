@@ -21,5 +21,12 @@
 ## Instruções
 ### Na Página "5-automation" no repositório encontra-se o arquivo .java com o código e o arquivo "pom" com as dependencias utilizadas. 
 ### Faça download dos dois para que o código possa rodar.
+----------------------------------------------------------------------------------
+
+## EVIDENCIAS
+### Evidencia.png - Após correr todo o codigo, o sistema tira o print da pagina após retirar o item do carrinho que é o ultimo passo
+### EvidenciaErro.png - Ao correr os testes, após alterar a quantidade de um produto no carrinho e imediatamente tentar excluir e/ou alterar a quantidade novamente, o sistema apontava erro ao tentar clicar.
+
+### A linha 47 do código foi inserida após o erro apontado acima. Assim ao recarregar o carrinho e tentar clicar em outro campo o teste ocorreu com sucesso
 
 # Qualquer duvida de funcionamento entrar em contato com Gustavo no cel. (34) 99242-6262
