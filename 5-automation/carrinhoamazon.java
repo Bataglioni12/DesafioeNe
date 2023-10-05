@@ -46,31 +46,19 @@ public class carrinhoamazon {
         /* RECARREGAR CARRINHO*/
         driver.findElement(By.xpath("/html/body/div[1]/header/div/div[1]/div[3]/div/a[3]")).click();
         
-
-
-
         /* EXCLUIR ITEM*/
         driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[3]/div[5]/div/div[2]/div[1]/div/form/div[2]/div[3]/div[4]/div/div[2]/div[1]/span[2]/span/input")).click();
         /*driver.findElement(By.linkText("0 (Excluir)")).click();*/
 
-        /*EVIDENCIAS
-        TakesScreenshot ts = ((TakesScreenshot) driver);
-            File src = ts.getScreenshotAs(OutputType.FILE);
-            File DestFile=new File("C:\\Users\\gustavo.lagogrande\\OneDrive - MJV TECNOLOGIA & INOVACAO LTDA\\Área de Trabalho\\Gustavo Bataglioni\\eNe");
-            FileUtils.copyFile(src, DestFile);
-
-         */
-
-
         }
 
-        @After
-        public void finalizar() throws Exception {
+    @After
+    public void finalizar() throws Exception {
 
         this.takeSnapShot(driver, "C:\\Users\\gustavo.lagogrande\\OneDrive - MJV TECNOLOGIA & INOVACAO LTDA\\Área de Trabalho\\Gustavo Bataglioni\\eNe\\evidenciaErro.png" );
 
             }
-        public void takeSnapShot(WebDriver webdriver,String fileWithPath) throws Exception{
+    public void takeSnapShot(WebDriver webdriver,String fileWithPath) throws Exception{
 
         //TIRAR PRINT
 
