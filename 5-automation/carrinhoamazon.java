@@ -43,9 +43,9 @@ public class carrinhoamazon {
         driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[3]/div[5]/div/div[2]/div[1]/div/form/div[2]/div[3]/div[4]/div/div[2]/div[1]/span[1]/span/span[1]/span/span/span/span")).click();
         driver.findElement(By.linkText("2")).click();
 
-        /* RECARREGAR CARRINHO
+        /* RECARREGAR CARRINHO*/
         driver.findElement(By.xpath("/html/body/div[1]/header/div/div[1]/div[3]/div/a[3]")).click();
-        */
+        
 
 
 
